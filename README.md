@@ -1,24 +1,53 @@
-# LAB-6-Online-examination-system
-### AIM:
-To develop the Exam Registration System using Star UML tools.
-### PROBLEM STATEMENT
-1. Exam Registration System is used in the effective registration of exams to all of the
-applicants. This system adopts a comprehensive approach to minimize the manual work and
-schedule resources, time in a coherent manner.
-2. The core of the system is to get the online registration form (with details such as name,
-address etc.,) filled by the applicant whose details are later verified by the Administrator.
-3. Then the applicant needs to pay the examination fees by the interface provided in the
-Exam Registration system. After the end of the due date for submitting the form, the
-information is in turn forwarded to the administrator's view.
-4. The applications are then processed based on the information given by the applicant,
-and any forfeiting identified can make the applicant liable to penalty as per the law.
-5. The administrator after successful confirmation, initiates the process to generate the
-hall tickets for the applicants. After successful generation of hall tickets, the system delivers
-the hall ticket to the applicants. The applicants can download the hall tickets finally in the end.
-### UML DIAGRAMS:
+# Exp - 6 STUDENT ONLINE EXAM REGISTRATION SYSTEM
+
+# Name: SHRIRAM VR
+# Reg.No: 212224040314
+
+# AIM:
+To study the problem statement, SRS document and draw all the UML diagrams of a Student Online Exam Registration System.
+
+# SRS (Procedure):
+## Step 1: Problem Identification
+
+Manual exam registration leads to errors, delays, and difficulty in managing student exam data.
+The system aims to automate student registration for exams, subject selection, fee payment, and hall-ticket generation.
+
+## Step 2: Requirement Analysis
+
+Users: Admin, Exam Coordinator, Student.
+
+Main Functions:
+Student registration, subject selection, exam scheduling, fee payment, hall-ticket generation, and report generation.
+
+Non-Functional Needs:
+Security of student data, reliability, and easy access.
+
+## Step 3: System Design
+
+Create UML diagrams: Use Case, Class, Activity, Sequence, Communication, and Package diagrams.
+Design database tables for Students, Subjects, Exam Registration, Fees, and Hall Tickets.
 
 
+# DIAGRAMS:
 
-### RESULT:
-Thus the project to develop Exam Registration system was developed using Star UML
-Software is done successfully.
+## Usecase Diagram
+<img width="1057" height="876" alt="image" src="https://github.com/user-attachments/assets/4b0afbca-667b-4731-a0fa-e885340da7e8" />
+
+## Class Diagram
+<img width="1140" height="803" alt="image" src="https://github.com/user-attachments/assets/f6db1c89-3b5f-4789-9734-25a2ae055bfa" />
+
+## Sequence Diagram
+<img width="1108" height="788" alt="Screenshot 2025-11-15 211912" src="https://github.com/user-attachments/assets/faa13de2-4b0d-4c0e-840e-6e69632319bc" />
+
+## Activity Diagram
+<img width="947" height="993" alt="image" src="https://github.com/user-attachments/assets/1ee4a0d2-858e-4e0e-ad3c-bdbfaaba0b03" />
+
+## Package Diagram
+<img width="1073" height="670" alt="image" src="https://github.com/user-attachments/assets/740dd778-b958-458a-8e08-e3509fdbdb43" />
+
+## Communication Diagram
+<img width="1218" height="842" alt="image" src="https://github.com/user-attachments/assets/91c87682-c5cc-4ee4-8834-94a6ea66c8f3" />
+
+
+# RESULT:
+Thus, the Student Online Exam Registration System was studied, and all required UML diagrams were successfully drawn.
